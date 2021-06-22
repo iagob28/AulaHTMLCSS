@@ -8,7 +8,11 @@ body{
   background: #BFD7F5;
   padding: 30px;
 }
-h1{
+.main-title{
+  padding-left: 20px;
+  color: #FFFFFF
+}
+.title-center{
   text-align: center;
 }
 p {
@@ -26,9 +30,6 @@ em strong{
 .Beneficios{
   background: #FFFFFF;
   padding: 20px;
-}
-h2{
-  text-align: center;
 }
 ul{
   display: inline-block;
