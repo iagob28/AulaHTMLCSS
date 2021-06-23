@@ -107,3 +107,41 @@ form label, form legend{
 .checkbox{
   margin: 20px 0;
 }
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #F55E25;
+  border-style: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.enviar:hover{
+  background: #DE6916;
+  transform: scale(1.04) rotate(1deg);
+}
+.enviar:active{
+  border-width: 4px;
+  border-color: #FA9719;
+}
+.escolha{
+  width: 20%;
+  font-size: 16px;
+}
+table {
+  margin: 20px 0px;
+
+}
+thead{
+  background: #777777;
+  color: #FFFFFF;
+  font-weight: bold;
+
+}
+td, th{
+  border: 1px solid #CCCCCC;
+  padding: 10px 5px;
+}
